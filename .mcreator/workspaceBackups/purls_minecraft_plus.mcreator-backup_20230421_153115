@@ -205,6 +205,58 @@
           "src/main/resources/assets/purls_minecraft_plus/models/item/flightshoes_boots.json"
         ]
       }
+    },
+    {
+      "name": "Flightshoeeffect",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flightshoeeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/purlsminecraftplus/procedures/FlightshoeeffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Invisibilityjacket",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibilityjacket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/purlsminecraftplus/item/InvisibilityjacketItem.java",
+          "src/main/resources/assets/purls_minecraft_plus/models/item/invisibilityjacket_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Invisjacketeffect",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisjacketeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/purlsminecraftplus/procedures/InvisjacketeffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -213,9 +265,12 @@
     "en_us": {
       "gui.purls_minecraft_plus.backpackregular.label_backpack": "Backpack",
       "item.purls_minecraft_plus.flightshoes_leggings": "Flightshoes Leggings",
+      "item.purls_minecraft_plus.invisibilityjacket_helmet": "Invisibilityjacket Helmet",
       "item.purls_minecraft_plus.minershelmet_leggings": "Minershelmet Leggings",
       "item.purls_minecraft_plus.flightshoes_boots": "Flight Boots",
+      "item.purls_minecraft_plus.invisibilityjacket_chestplate": "Invisibility Jacket",
       "item.purls_minecraft_plus.flightshoes_helmet": "Flightshoes Helmet",
+      "item.purls_minecraft_plus.invisibilityjacket_leggings": "Invisibilityjacket Leggings",
       "item.purls_minecraft_plus.stone_armor_helmet": "Stone Armor Helmet",
       "item.purls_minecraft_plus.stone_armor_boots": "Stone Armor Boots",
       "item.purls_minecraft_plus.backpackitemregular": "Backpack",
@@ -224,6 +279,7 @@
       "item.purls_minecraft_plus.minershelmet_chestplate": "Minershelmet Body",
       "gui.purls_minecraft_plus.backpacksmall.label_backpack": "Small Backpack",
       "item.purls_minecraft_plus.minershelmet_boots": "Minershelmet Boots",
+      "item.purls_minecraft_plus.invisibilityjacket_boots": "Invisibilityjacket Boots",
       "gui.purls_minecraft_plus.backpackregular.Owner": "",
       "item.purls_minecraft_plus.minershelmet_helmet": "Miners; Helmet",
       "item.purls_minecraft_plus.flightshoes_chestplate": "Flightshoes Body",
@@ -248,6 +304,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.purlsminecraftplus",
     "lockBaseModFiles": false
   },

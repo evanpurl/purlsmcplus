@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.purlsminecraftplus.item.StoneArmorItem;
 import net.mcreator.purlsminecraftplus.item.MinershelmetItem;
+import net.mcreator.purlsminecraftplus.item.InvisibilityjacketItem;
 import net.mcreator.purlsminecraftplus.item.FlightshoesItem;
 import net.mcreator.purlsminecraftplus.item.BackpackitemsmallItem;
 import net.mcreator.purlsminecraftplus.item.BackpackitemregularItem;
@@ -27,4 +28,5 @@ public class PurlsMinecraftPlusModItems {
 	public static final RegistryObject<Item> STONE_ARMOR_BOOTS = REGISTRY.register("stone_armor_boots", () -> new StoneArmorItem.Boots());
 	public static final RegistryObject<Item> MINERSHELMET_HELMET = REGISTRY.register("minershelmet_helmet", () -> new MinershelmetItem.Helmet());
 	public static final RegistryObject<Item> FLIGHTSHOES_BOOTS = REGISTRY.register("flightshoes_boots", () -> new FlightshoesItem.Boots());
+	public static final RegistryObject<Item> INVISIBILITYJACKET_CHESTPLATE = REGISTRY.register("invisibilityjacket_chestplate", () -> new InvisibilityjacketItem.Chestplate());
 }
