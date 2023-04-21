@@ -10,9 +10,6 @@
     "textureLeggings": "",
     "enableBoots": true,
     "textureBoots": "flight_shoes_boots",
-    "onBootsTick": {
-      "name": "Flightshoeeffect"
-    },
     "creativeTab": {
       "value": "TOOLS"
     },
