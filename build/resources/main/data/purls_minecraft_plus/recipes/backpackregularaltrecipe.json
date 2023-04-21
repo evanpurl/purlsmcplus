@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "1": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "4": {
+      "item": "purls_minecraft_plus:backpackitemsmall"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "7": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "purls_minecraft_plus:backpackitemregular",
+    "count": 1
+  }
+}
