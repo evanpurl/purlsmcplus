@@ -1,7 +1,7 @@
 Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--inJar, C:\Users\Owner\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-injected.jar, --outJar, C:\Users\Owner\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, D:\MC\purls_minecraft_plus\build\_atJar_4\parent_at.cfg'
+Arguments: '--inJar, C:\Mcreator\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-injected.jar, --outJar, C:\Mcreator\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, C:\Mcreator\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Mcreator\build\_atJar_4\parent_at.cfg'
 Classpath:
- - C:\Users\Owner\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: D:\MC\purls_minecraft_plus\build\_atJar_4
+ - C:\Users\evan\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Mcreator\build\_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================
